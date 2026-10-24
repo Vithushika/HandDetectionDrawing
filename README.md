@@ -11,6 +11,7 @@ for drawing mode, brush size, colour and clearing the canvas.
 - **Toggle drawing mode** on and off with the spacebar.
 - **Adjustable brush size** using the `=` and `-` keys.
 - **Clear the canvas** with the `C` key.
+- **Colour selection** random colours with the `r` key or stick to white with the `w` key.
 - **Live status display** showing drawing mode and the selected brush size.
 - **Webcam input** processed frame by frame using OpenCV.
 
@@ -31,6 +32,8 @@ https://ai.google.dev/edge/mediapipe/solutions/vision/hand_landmarker
 - `c` - clears the canvas of all drawings
 - `-` - decreases brush size
 - `=` - increases brush size
+- `r` - set colour to a random colour
+- `w` - set colour to white
 - `esc` - exit the application
 - `space` - toggle drawing mode on and off
 
